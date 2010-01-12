@@ -1,0 +1,154 @@
+body {
+  background-color: #4977CD;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Helvetica, Sans-Serif; 
+}
+
+a {
+  color: #002165;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#container {
+  width: 50em;
+  background-color: #CADDFF;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title {
+  background-color: #039;
+  color: white;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+#title h1 {
+  margin: 0;
+  padding: 0;
+}
+
+#title .left {
+  margin: 0;
+  padding: 0;
+  float: left;
+  text-align: left;
+}
+
+#title .right {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+
+#sidebar {
+  background-color: #CADDFF;
+  font-size: 85%;
+  width: 10em;
+  padding: 1em .5em 1em .5em;
+  margin: 0 0 0 0;
+  float: right;
+}
+
+#sidebar ul {
+  margin-left: 0em;
+  padding-left: 1em;
+  list-style-position: outside;
+  list-style-type: square;
+}
+
+#sidebar ul li {
+  margin-bottom: .5em;
+}
+
+#sidebar h1 {
+  font-size: 100%;
+}
+
+#sidebar a {
+  color: black;
+}
+
+#sidebar hr {
+  background-color: #002165;
+  border: 0;
+  height: 2px;
+  width: 75%;
+}
+
+#note {
+  background-color: white;
+  margin-top 0em;
+  margin-right: 9.35em;  /* (10 + .5 + .5)*.85 */
+  padding: 1em 1em 1em 2em;
+  /*  float: left;*/
+}
+
+#note h1 {
+  font-size: 150%;
+}
+
+#note h2 {
+  font-size: 125%;
+}
+
+#note h3 {
+  font-size: 100%;
+}
+
+#note h4,h5 {
+  font-size: 80%;
+}
+
+#note pre span.ln {
+  color: #888;
+  font-size: 75%;
+}
+
+#note .info {
+  font-size: 75%;
+  color: #888;
+}
+
+#note .info a {
+  color: #4977CD;
+}
+
+#note table {
+  border-collapse: collapse; 
+}
+
+#note table th {
+  padding: .5em 1em .25em 1em;
+  background-color: #ddd;
+  border: 1px solid black;
+  border-bottom: 2px solid black;
+}
+
+#note table td {
+  padding: .25em 1em .25em 1em;
+  border: 1px solid black;
+}
+
+#note ol,ul {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+#note li {
+  margin-top: .5em;
+}
+
+#note p.self {
+  background-color: #faa;
+}
+

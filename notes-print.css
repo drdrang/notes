@@ -1,0 +1,36 @@
+body {
+  background-color: white;
+}
+
+#container {
+  background: white;
+}
+
+#container a {
+  color: black;
+}
+
+#title {
+  background-color: white;
+  color: black;
+}
+
+#sidebar {
+  display: none;
+}
+
+#note {
+  margin-right: 0;
+}
+
+#note .info {
+  display: none;
+}
+
+#note hr {
+  display: none;
+}
+
+/*#note .info a {
+  color: #888;
+}*/

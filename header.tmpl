@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+   <title>$projname ($projnumber)</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <link rel="stylesheet" type="text/css" media="all" href="notes.css" />
+   <link rel="stylesheet" type="text/css" media="print" href="notes-print.css" />
+   <script type="text/javascript" src="$jsmathpath"></script>
+   <script type="text/javascript" src="styleLineNumbers.js"></script>
+   <script type="text/javascript" src="notesList.js"></script>
+</head>
+<body onload="styleLN()">
+   <div id="container">
+      <div id="title">
+         <h1 class="left">$projname</h1>
+            <h1 class="right">$projnumber</h1>
+      </div> <!-- title -->
+      <div id="sidebar">
+         <h1>Project notes:</h1>
+         <ul>
+            <script type="text/javascript">showNotesList()</script>
+         </ul>
+         <hr />
+         <h1>Contacts:</h1>
+         <ul>
+            $contactlist
+         </ul>
+         <hr />
+         <h1>Source:</h1>
+         <ul>
+            <li><a href="txmt://open?url=file://$mdpath">Edit in TextMate</a></li>
+            <li>Last modified<br />
+               &nbsp;$modldate<br />
+               &nbsp;at $modtime</li>
+          </ul>
+          <hr />
+          <ul>
+            <li><a href="txmt://open?url=file://$infopath">Edit project info</a></li>
+          </ul>
+      </div> <!-- sidebar -->
+      
+      <div id="note">
