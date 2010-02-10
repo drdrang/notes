@@ -53,6 +53,7 @@ a:hover {
 #sidebar {
   background-color: #CADDFF;
   font-size: 85%;
+  font-family: Helvetica, Sans-serif;
   width: 10em;
   padding: 1em .5em 1em .5em;
   margin: 0 0 0 0;
@@ -61,9 +62,9 @@ a:hover {
 
 #sidebar ul {
   margin-left: 0em;
-  padding-left: 1em;
+  padding-left: .75em;
   list-style-position: outside;
-  list-style-type: square;
+  list-style-type: none;
 }
 
 #sidebar ul li {
