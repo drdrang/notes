@@ -1,6 +1,6 @@
 # Makefile for project notes.
 
-mdfiles := $(wildcard *.md)
+mdfiles := $(wildcard *.md */*.md)
 htmlfiles := $(patsubst %.md, %.html, $(mdfiles))
 
 all: notesList.js $(htmlfiles)
