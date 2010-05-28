@@ -28,6 +28,14 @@ content.close()
 # Initialize the dictionary of dynamic information.
 info = {}
 
+# Dictionary entry with relative path to notes root. We allow only one
+# level of subdirectory, so the root can be at most one level up from
+# the file we're working on.
+if os.path.split(mdFile)[0] == '':
+  info['root'] = ''
+else:
+  info['root'] = '../'
+
 # Dictionary entry with long modification date of the Markdown file.
 mdModTime = time.localtime(os.path.getmtime(mdFile))
 info['modldate'] = time.strftime('%B %e, %Y', mdModTime)
