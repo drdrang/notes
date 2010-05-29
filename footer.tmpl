@@ -1,8 +1,11 @@
 <hr />
 <p class="info">
-   Source: <a href="txmt://open?url=file://$mdpath">$mdpath</a><br />
-   Last modified: $modldate at $modtime<br />
-   <!-- This page built: $buildtime -->
+  Source:
+  <script type="text/javascript">
+    document.write('<a href="txmt://open?url=' + document.URL.replace(/html$/, 'md') + '">' + document.URL.replace(/html$/, 'md') + '</a></li>\n')
+  </script><br />
+  Last modified: $modldate at $modtime<br />
+  <!-- This page built: $buildtime -->
 </p>
 </div> <!-- note -->
 </div> <!-- container -->

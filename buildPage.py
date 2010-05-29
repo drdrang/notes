@@ -66,7 +66,7 @@ for line in projInfo:
 
 projInfo.close()
 
-# Dictionary entry with absolute path to project info file (for editing).
+# Dictionary entry with path to project info file (for editing).
 info['infopath'] = os.path.abspath('project.info')
 
 # Convert the contacts into a series of HTML list items.

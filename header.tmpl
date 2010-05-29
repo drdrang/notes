@@ -8,7 +8,7 @@
    <link rel="stylesheet" type="text/css" media="print" href="${root}notes-print.css" />
    <!-- <script type="text/javascript" src="$jsmathpath"></script> -->
    <script type="text/javascript" src="${root}styleLineNumbers.js"></script>
-   <script type="text/javascript" src="notesList.js"></script>
+   <script type="text/javascript" src="${root}notesList.js"></script>
 </head>
 <body onload="styleLN()">
    <div id="container">
@@ -19,7 +19,7 @@
       <div id="sidebar">
          <h1>Project notes:</h1>
          <ul>
-            <script type="text/javascript">showNotesList()</script>
+            <script type="text/javascript">showNotesList('$root')</script>
          </ul>
          <hr />
          <h1>Contacts:</h1>
@@ -29,15 +29,17 @@
          <hr />
          <h1>Source:</h1>
          <ul>
-            <li><a href="txmt://open?url=file://$mdpath">Edit in TextMate</a></li>
+            <li><script type="text/javascript">
+                  document.write('<a href="txmt://open?url=' + document.URL.replace(/html$/, 'md') + '">Edit in TextMate</a></li>\n')
+                </script>
             <li>Last modified<br />
                &nbsp;$modldate<br />
                &nbsp;at $modtime</li>
           </ul>
-          <hr />
+          <!-- <hr />
           <ul>
             <li><a href="txmt://open?url=file://$infopath">Edit project info</a></li>
-          </ul>
+          </ul> -->
       </div> <!-- sidebar -->
       
       <div id="note">

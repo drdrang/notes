@@ -28,7 +28,7 @@ def nameList(dir):
           count += len(w) + 1 
       title = ' '.join(twords) + "&#8230;"
     f.close()
-    fileLI.append('<li><a href="%s.html">%s</a></li>' % (os.path.join(d, fn),title))
+    fileLI.append('<li><a href="\' + root + \'%s.html">%s</a></li>' % (os.path.join(d, fn),title))
   return fileLI
 
 # Find all the directories that have md files.
@@ -52,6 +52,6 @@ for d in mdDirs:
     # print linkList
     linkList += ['</ul>', '</li>']
 
-print '''function showNotesList(){
+print '''function showNotesList(root){
   document.write('%s')
 }''' % ''.join(linkList)
