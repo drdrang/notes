@@ -29,7 +29,7 @@ The top level of the notes directory contains all the support files, that is, al
 
 * `header.tmpl`, the HTML template file with all the common code above the content.
 * `footer.tmpl`, the HTML template file with all the common code below the content.
-* `project.info`, a file of project-specific data, including the project name and number, the list of contacts (including links to Address Book entries if you're on a Mac), and the `file://` URI for the top-level directory.
+* `project.info`, a file of project-specific data, including the project name and number, the list of contacts (including links to Address Book entries if you're on a Mac), and the name of the PNotes directory.
 * `notes.css`, the style file for browsing.
 * `notes-print.css`, the style file for printing.
 * `styleLineNumbers.js`, a [pair of JavaScript functions][7] that improve the formatting of source code.
@@ -61,7 +61,7 @@ You can, of course, open any `.md` file in any text editor to make changes. If y
 
 # More details #
 
-I wrote a three-part series of blog posts describing this system and its scripts, [here][8], [here][9], and [here][10]. The scripts have changed since then, but the basic ideas are the same.
+I wrote a three-part series of blog posts describing this system and its scripts, [here][8], [here][9], and [here][10]. Updates to the system are described [here][12] and [here][13].
 
 # License #
 
@@ -79,3 +79,5 @@ This work is licensed under a [Creative Commons Attribution-Share Alike 3.0 Unpo
 [9]: http://www.leancrew.com/all-this/2008/06/my-no-server-personal-wiki—part-2/
 [10]: http://www.leancrew.com/all-this/2008/06/my-no-server-personal-wiki—part-3/
 [11]: http://creativecommons.org/licenses/by-sa/3.0/
+[12]: http://www.leancrew.com/all-this/2010/02/the-no-server-notes-wiki/
+[13]: http://www.leancrew.com/all-this/2010/05/relative-links-in-pnotes/  
