@@ -36,10 +36,13 @@
                &nbsp;$modldate<br />
                &nbsp;at $modtime</li>
           </ul>
-          <!-- <hr />
+          <hr />
           <ul>
-            <li><a href="txmt://open?url=file://$infopath">Edit project info</a></li>
-          </ul> -->
+            <li><script type="text/javascript">
+                  infoPath = document.URL.replace(/\/$dirname\/.+$/, '/$dirname/project.info');
+                  document.write('<a href="txmt://open?url=' + infoPath + '">Edit project info</a>');
+                </script></li>
+          </ul>
       </div> <!-- sidebar -->
       
       <div id="note">

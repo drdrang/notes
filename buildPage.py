@@ -51,7 +51,7 @@ if info['modtime'][0] == ' ':
   info['modtime'] = info['modtime'][1:]
 
 # Dictionary entry with absolute path to the Markdown file (for editing).
-info['mdpath'] = os.path.abspath(mdFile)
+# info['mdpath'] = os.path.abspath(mdFile)
 
 # Add project info to the dictionary.
 projInfo = open('project.info', 'r')
@@ -67,7 +67,7 @@ for line in projInfo:
 projInfo.close()
 
 # Dictionary entry with path to project info file (for editing).
-info['infopath'] = os.path.abspath('project.info')
+# info['infopath'] = os.path.abspath('project.info')
 
 # Convert the contacts into a series of HTML list items.
 if 'contact' in info:
