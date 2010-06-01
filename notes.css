@@ -110,6 +110,12 @@ a:hover {
   font-size: 80%;
 }
 
+#note img.c {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #note pre span.ln {
   color: #888;
   font-size: 75%;
