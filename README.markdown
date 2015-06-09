@@ -76,8 +76,8 @@ This work is licensed under a [Creative Commons Attribution-Share Alike 3.0 Unpo
 [6]: http://www.math.union.edu/~dpvc/jsMath/
 [7]: http://www.leancrew.com/all-this/2007/12/source-code-line-numbers-and-javascript/
 [8]: http://www.leancrew.com/all-this/2008/06/my-no-server-personal-wiki-part-1/
-[9]: http://www.leancrew.com/all-this/2008/06/my-no-server-personal-wiki—part-2/
-[10]: http://www.leancrew.com/all-this/2008/06/my-no-server-personal-wiki—part-3/
+[9]: http://www.leancrew.com/all-this/2008/06/my-no-server-personal-wiki-part-2/
+[10]: http://www.leancrew.com/all-this/2008/06/my-no-server-personal-wiki-part-3/
 [11]: http://creativecommons.org/licenses/by-sa/3.0/
 [12]: http://www.leancrew.com/all-this/2010/02/the-no-server-notes-wiki/
-[13]: http://www.leancrew.com/all-this/2010/05/relative-links-in-pnotes/  
+[13]: http://www.leancrew.com/all-this/2010/05/relative-links-in-pnotes/
